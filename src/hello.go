@@ -2,8 +2,7 @@ package main
 
 import "fmt"
 import "./pack1"
-
-var age int;
+import "./go_struct"
 
 
 func learn(){
@@ -16,4 +15,5 @@ func main() {
     fmt.Printf("hello, world\n")
 	learn()
 	subClass.Pack1()
+	go_struct.UseStruct()
 }
